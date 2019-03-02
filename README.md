@@ -1,4 +1,4 @@
-# Redis example
+# Redis PHP example
 
 ## Use
 
