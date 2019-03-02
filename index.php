@@ -13,7 +13,7 @@ class Index {
 
   }
 
-  public function redisTest() {
+  public function redisListTest() {
 
     $push = $_GET['push'] ? $_GET['push'] : false;
     $pop = $_GET['pop'] ? $_GET['pop'] : false;
@@ -34,6 +34,6 @@ class Index {
 }
 
 $index = new Index();
-$index->redisTest();
+$index->redisListTest();
 
 
